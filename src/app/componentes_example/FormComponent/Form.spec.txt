@@ -1,0 +1,66 @@
+import * as React from 'react';
+import * as Enzyme from 'enzyme'
+import { FormComponent } from './index';
+import { shallow, mount } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+
+Enzyme.configure({ adapter: new Adapter() });
+
+describe('Test for Modal login', () => {
+
+   
+    const component = mount((
+        <FormComponent/> 
+    ));
+
+    let onlyBlur_E: any = {};
+    let onlyChange1_E: any = {};
+    let onlyChange2_E: any = {};
+    let onlyChange3_E: any = {};
+    let onlyBlur_C: any = {};
+    let onlyChange1_C: any = {};
+    let onlyChange2_C: any = {};
+
+    beforeAll(() => {
+        component.find('input[name="email"]').simulate('blur');
+        onlyBlur_E = component.state();
+        component.find('input[name="email"]').simulate('change', { target: { value: 'log' }});
+        onlyChange1_E = component.state();
+        component.find('input[name="email"]').simulate('change', { target: { value: 'log@urbt.' }});
+        onlyChange2_E = component.state();
+        component.find('input[name="email"]').simulate('change', { target: { value: 'log@urbt.com' }});
+        onlyChange3_E = component.state();
+
+        component.find('input[name="password"]').simulate('blur');
+        onlyBlur_C = component.state();
+        component.find('input[name="password"]').simulate('change', { target: { value: '1' }});
+        onlyChange1_C = component.state();
+        component.find('input[name="password"]').simulate('change', { target: { value: '123456' }});
+        onlyChange2_C = component.state();
+    });
+
+    it ('Comprove Error Field ~> Email[blur]', () => {
+        expect( onlyBlur_E.typeErrorEmail ).toEqual( 1 );
+    });
+    it ('Comprove Error Field ~> Email[change 1]', () => {
+        expect( onlyChange1_E.typeErrorEmail ).toEqual( 2 );
+    });
+    it ('Comprove Error Field ~> Email[change 2]', () => {
+        expect( onlyChange2_E.typeErrorEmail ).toEqual( 2 );
+    });
+    it ('Comprove Error Field ~> Email[change 3]', () => {
+        expect( onlyChange3_E.typeErrorEmail ).toEqual( 0 );
+    });
+
+    it ('Comprove Error Field ~> Clave[blur]', () => {
+        expect( onlyBlur_C.typeErrorPassword ).toEqual( 1 );
+    });
+    it ('Comprove Error Field ~> Clave[change 1]', () => {
+        expect( onlyChange1_C.typeErrorPassword ).toEqual( 2 );
+    });
+    it ('Comprove Error Field ~> Clave[change 2]', () => {
+        expect( onlyChange2_C.typeErrorPassword ).toEqual( 0 );
+    });
+
+    expect(component).toMatchSnapshot();    
+});

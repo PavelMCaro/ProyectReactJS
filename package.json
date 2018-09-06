@@ -1,0 +1,60 @@
+{
+  "name": "ReactLab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.tsx",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "wp": "webpack --mode development",
+    "start": "webpack-dev-server --inline --open",
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "transform": {
+        "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+    "moduleFileExtensions": [
+        "ts",
+        "tsx",
+        "js",
+        "json",
+        "jsx"
+    ]
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.13",
+    "@types/enzyme-adapter-react-16": "^1.0.3",
+    "@types/jest": "^23.3.1",
+    "@types/node": "^10.7.1",
+    "@types/react": "^16.4.11",
+    "@types/react-dom": "^16.0.7",
+    "@types/react-modal": "^3.2.1",
+    "enzyme": "^3.5.0",
+    "enzyme-adapter-react-16": "^1.3.1",
+    "enzyme-to-json": "^3.3.4",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^23.5.0",
+    "loader": "^2.1.1",
+    "react-scripts": "^1.1.5",
+    "source-map": "^0.7.3",
+    "styled-components": "^3.4.2",
+    "ts-loader": "^4.5.0",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-middleware": "^3.1.3",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-hot-middleware": "^2.22.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-modal": "^3.5.1",
+    "react-scripts-ts": "^2.17.0"
+  }
+}

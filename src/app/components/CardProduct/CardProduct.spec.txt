@@ -1,0 +1,40 @@
+import * as React from 'react';
+import * as Enzyme from 'enzyme'
+import { ProductResult } from './index';
+import { shallow, mount } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+
+Enzyme.configure({ adapter: new Adapter() });
+
+describe('Test for Modal login', () => {
+
+    const props = {
+        id: "PA01",
+        name: "Teclado",
+        price: 150,
+        count: 5,
+        stock: 10,
+        addOne: () => {},
+        deleteOne: () => {},
+        deleteproducts: () => {},
+        inStock: true
+    }
+    const component = shallow((
+        <ProductResult {...props}
+        /> 
+    ));
+
+    it('Test Show Component', () =>{
+        expect(component).toMatchSnapshot();
+    });
+});
+
+/*
+interface Props{
+    count: number;
+    deleteProducts: any;
+    addOne: any;
+    deleteOne: any;
+    inStock: any;
+}
+*/

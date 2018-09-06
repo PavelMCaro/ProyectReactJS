@@ -1,0 +1,352 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Product Component Test Show Component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    addProduct={[Function]}
+    description="Teclado gamer mecánico"
+    id="A101"
+    inStock={true}
+    keyButton="A101"
+    price={150}
+    srcImg="src/app/assets/images/mouse-gamer.png"
+    stock={10}
+    title="Teclado"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <styled.h2>
+          Teclado
+        </styled.h2>,
+        <styled.img
+          src="src/app/assets/images/mouse-gamer.png"
+        />,
+        <styled.p>
+          Teclado gamer mecánico
+        </styled.p>,
+        <styled.p>
+          Disponible: 
+          10
+        </styled.p>,
+        <styled.p>
+          Precio: s/. 
+          150
+        </styled.p>,
+        <styled.button
+          disabled={false}
+          id="A101"
+          onClick={[Function]}
+        >
+          <styled.img
+            src="src/app/assets/images/carrito-button.png"
+          />
+          <styled.span>
+            Añadir al carrito
+          </styled.span>
+        </styled.button>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Teclado",
+        },
+        "ref": null,
+        "rendered": "Teclado",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "src": "src/app/assets/images/mouse-gamer.png",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": "Teclado gamer mecánico",
+        },
+        "ref": null,
+        "rendered": "Teclado gamer mecánico",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            "Disponible: ",
+            10,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Disponible: ",
+          10,
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            "Precio: s/. ",
+            150,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Precio: s/. ",
+          150,
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <styled.img
+              src="src/app/assets/images/carrito-button.png"
+            />,
+            <styled.span>
+              Añadir al carrito
+            </styled.span>,
+          ],
+          "disabled": false,
+          "id": "A101",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "src": "src/app/assets/images/carrito-button.png",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Añadir al carrito",
+            },
+            "ref": null,
+            "rendered": "Añadir al carrito",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <styled.h2>
+            Teclado
+          </styled.h2>,
+          <styled.img
+            src="src/app/assets/images/mouse-gamer.png"
+          />,
+          <styled.p>
+            Teclado gamer mecánico
+          </styled.p>,
+          <styled.p>
+            Disponible: 
+            10
+          </styled.p>,
+          <styled.p>
+            Precio: s/. 
+            150
+          </styled.p>,
+          <styled.button
+            disabled={false}
+            id="A101"
+            onClick={[Function]}
+          >
+            <styled.img
+              src="src/app/assets/images/carrito-button.png"
+            />
+            <styled.span>
+              Añadir al carrito
+            </styled.span>
+          </styled.button>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Teclado",
+          },
+          "ref": null,
+          "rendered": "Teclado",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "src": "src/app/assets/images/mouse-gamer.png",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Teclado gamer mecánico",
+          },
+          "ref": null,
+          "rendered": "Teclado gamer mecánico",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              "Disponible: ",
+              10,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Disponible: ",
+            10,
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              "Precio: s/. ",
+              150,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Precio: s/. ",
+            150,
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <styled.img
+                src="src/app/assets/images/carrito-button.png"
+              />,
+              <styled.span>
+                Añadir al carrito
+              </styled.span>,
+            ],
+            "disabled": false,
+            "id": "A101",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "src": "src/app/assets/images/carrito-button.png",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Añadir al carrito",
+              },
+              "ref": null,
+              "rendered": "Añadir al carrito",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

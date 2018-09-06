@@ -1,0 +1,45 @@
+import * as React from 'react';
+import * as Enzyme from 'enzyme'
+import { App } from './App';
+import { shallow, mount } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+
+Enzyme.configure({ adapter: new Adapter() });
+
+describe('Test for Product component', () => {
+    
+   
+
+    let onlyBlur_E: any = {};
+    let onlyChange1_E: any = {};
+    let onlyChange2_E: any = {};
+    let onlyChange3_E: any = {};
+    let onlyBlur_C: any = {};
+    let onlyChange1_C: any = {};
+    let onlyChange2_C: any = {};
+
+    const props = {
+        closeModal: () => {},
+        emailValue: "andriu.montalvoc@gmail.com",
+        passwordValue: "orbisfront123",
+        changeEmail: () => {},
+        changePassword: () => {},
+        blurEmail: () => {},
+        blurPassword: () => {},
+        typeErrorEmail: 0,
+        typeErrorPassword: 0,
+        formSubmit: () => {},
+        errorLogin: 0,
+        textErrorLogin: "Error Login"
+    }
+
+    const component = mount((
+        <App/>
+    ));
+
+    it('Test Show Component', () => {
+        expect(component).toMatchSnapshot();
+    });
+
+});
+

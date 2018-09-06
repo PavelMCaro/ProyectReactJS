@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1536176033657" clover="3.2.0">
+  <project timestamp="1536176033658" name="All files">
+    <metrics statements="49" coveredstatements="43" conditionals="74" coveredconditionals="55" methods="17" coveredmethods="11" elements="140" coveredelements="109" complexity="0" loc="49" ncloc="49" packages="6" files="12" classes="12">
+      <package name="Header">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <file name="index.tsx" path="/home/pavel/Documentos/ReactLab/src/app/components/Header/index.tsx">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="16" count="1" type="stmt"/>
+        </file>
+        <file name="styled.tsx" path="/home/pavel/Documentos/ReactLab/src/app/components/Header/styled.tsx">
+          <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="0" coveredmethods="0"/>
+          <line num="3" count="1" type="cond" truecount="2" falsecount="0"/>
+        </file>
+      </package>
+      <package name="Header-Menu">
+        <metrics statements="7" coveredstatements="7" conditionals="16" coveredconditionals="13" methods="3" coveredmethods="3"/>
+        <file name="index.tsx" path="/home/pavel/Documentos/ReactLab/src/app/components/Header-Menu/index.tsx">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="17" count="2" type="stmt"/>
+        </file>
+        <file name="styled.tsx" path="/home/pavel/Documentos/ReactLab/src/app/components/Header-Menu/styled.tsx">
+          <metrics statements="6" coveredstatements="6" conditionals="16" coveredconditionals="13" methods="2" coveredmethods="2"/>
+          <line num="11" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="20" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="34" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="39" count="1" type="cond" truecount="4" falsecount="0"/>
+          <line num="44" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="58" count="1" type="cond" truecount="1" falsecount="3"/>
+        </file>
+      </package>
+      <package name="Header-Search">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <file name="index.tsx" path="/home/pavel/Documentos/ReactLab/src/app/components/Header-Search/index.tsx">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="11" count="2" type="stmt"/>
+        </file>
+        <file name="styled.tsx" path="/home/pavel/Documentos/ReactLab/src/app/components/Header-Search/styled.tsx">
+          <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="0" coveredmethods="0"/>
+          <line num="3" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="9" count="2" type="cond" truecount="2" falsecount="0"/>
+        </file>
+      </package>
+      <package name="Modal">
+        <metrics statements="14" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="4"/>
+        <file name="index.tsx" path="/home/pavel/Documentos/ReactLab/src/app/components/Modal/index.tsx">
+          <metrics statements="13" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="4"/>
+          <line num="5" count="2" type="stmt"/>
+          <line num="6" count="2" type="stmt"/>
+          <line num="7" count="2" type="stmt"/>
+          <line num="12" count="2" type="stmt"/>
+          <line num="16" count="1" type="cond" truecount="2" falsecount="0"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="19" count="2" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="22" count="2" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="25" count="2" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+          <line num="33" count="2" type="stmt"/>
+        </file>
+        <file name="styled.tsx" path="/home/pavel/Documentos/ReactLab/src/app/components/Modal/styled.tsx">
+          <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="0" coveredmethods="0"/>
+          <line num="3" count="2" type="cond" truecount="2" falsecount="0"/>
+        </file>
+      </package>
+      <package name="ModalLogin">
+        <metrics statements="11" coveredstatements="8" conditionals="26" coveredconditionals="14" methods="4" coveredmethods="1"/>
+        <file name="index.tsx" path="/home/pavel/Documentos/ReactLab/src/app/components/ModalLogin/index.tsx">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="28" count="1" type="stmt"/>
+        </file>
+        <file name="styled.tsx" path="/home/pavel/Documentos/ReactLab/src/app/components/ModalLogin/styled.tsx">
+          <metrics statements="10" coveredstatements="7" conditionals="26" coveredconditionals="14" methods="3" coveredmethods="0"/>
+          <line num="14" count="1" type="cond" truecount="2" falsecount="0"/>
+          <line num="19" count="1" type="cond" truecount="2" falsecount="0"/>
+          <line num="26" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="32" count="1" type="cond" truecount="2" falsecount="0"/>
+          <line num="41" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="46" count="1" type="cond" truecount="2" falsecount="0"/>
+          <line num="55" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="60" count="1" type="cond" truecount="2" falsecount="0"/>
+          <line num="71" count="1" type="cond" truecount="2" falsecount="0"/>
+          <line num="79" count="1" type="cond" truecount="2" falsecount="0"/>
+        </file>
+      </package>
+      <package name="Product">
+        <metrics statements="12" coveredstatements="10" conditionals="22" coveredconditionals="18" methods="3" coveredmethods="1"/>
+        <file name="index.tsx" path="/home/pavel/Documentos/ReactLab/src/app/components/Product/index.tsx">
+          <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+          <line num="26" count="1" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+        </file>
+        <file name="styled.tsx" path="/home/pavel/Documentos/ReactLab/src/app/components/Product/styled.tsx">
+          <metrics statements="10" coveredstatements="9" conditionals="22" coveredconditionals="18" methods="1" coveredmethods="0"/>
+          <line num="8" count="1" type="cond" truecount="2" falsecount="0"/>
+          <line num="12" count="1" type="cond" truecount="2" falsecount="0"/>
+          <line num="18" count="1" type="cond" truecount="2" falsecount="0"/>
+          <line num="25" count="1" type="cond" truecount="2" falsecount="0"/>
+          <line num="32" count="1" type="cond" truecount="2" falsecount="0"/>
+          <line num="38" count="1" type="cond" truecount="2" falsecount="0"/>
+          <line num="48" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="55" count="1" type="cond" truecount="2" falsecount="0"/>
+          <line num="59" count="1" type="cond" truecount="2" falsecount="0"/>
+          <line num="64" count="1" type="cond" truecount="2" falsecount="0"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
